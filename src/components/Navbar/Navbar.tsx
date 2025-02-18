@@ -46,23 +46,9 @@ const navItems: NavItems = {
       ],
     },
   },
-  Solutions: {
-    isDropdown: true,
-    sections: {
-      "WHY US?": [
-        { title: "Resources & Guides", href: "#" },
-        { title: "Customers", href: "#" },
-        { title: "Case Studies", href: "#" },
-        { title: "Security", href: "#" },
-      ],
-      "USE CASES": [
-        { title: "Company Websites", href: "#" },
-        { title: "E-commerce", href: "#" },
-        { title: "Web Apps", href: "#" },
-        { title: "Large Sites", href: "#" },
-      ],
-    },
-  },
+  Courses: { href: "/course" }, 
+    
+  
   Projects: { href: "/project" },
   FAQ: { href: "/faq" },
   Career: { href: "/career" },
