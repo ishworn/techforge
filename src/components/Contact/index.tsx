@@ -52,7 +52,7 @@ export default function Contact() {
   </div>
   <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold   mt-10 ">Contacts</h1>
   <p className="mt-5 text-base sm:text-lg md:text-xl   ">
-  Got Questions? We're Just a Message Away!
+ { `Got Questions? We're Just a Message Away!`}
   </p>
   </section>
       </motion.div>
