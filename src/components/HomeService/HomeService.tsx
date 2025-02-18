@@ -5,29 +5,32 @@ import Link from "next/link"
 export default function ServicesSection() {
   const services = [
     {
+
+      
+   
       title: "Digtal Marketing",
       image: "/Images/Services/DG.png",
-      href: "#",
+      href: "/services#digital-marketing",
     },
     {
       title: "Search Engine Optimization",
       image: "/Images/Services/SEO.png",
-      href: "#",
+      href: "/services#seo",
     },
     {
       title: "Software Development",
       image: "/Images/Services/SDLC.jpg",
-      href: "#",
+      href: "/services#software-development",
     },
     {
       title: "Web Development",
       image: "/Images/Services/webDev.jpg",
-      href: "#",
+      href: "/services#website-development",
     },
     {
-      title: "New House Plumbing",
+      title: "AI & ML",
       image: "/Images/Services/ml.jpg",
-      href: "#",
+      href: "/services#ai",
     },
   ]
 
@@ -43,7 +46,7 @@ export default function ServicesSection() {
             </p>
           </div>
           <div className="flex flex-col gap-2 sm:flex-row">
-            <Link href="#" className="inline-flex items-center text-blue-600 hover:blue-red-700 transition-colors">
+            <Link href="/services" className="inline-flex items-center text-blue-600 hover:blue-red-700 transition-colors">
               View All Services <ArrowUpRight className="ml-2 h-4 w-4" />
             </Link>
             <Link href="#" className="inline-flex items-center text-blue-600 hover:blue-red-700 transition-colors">

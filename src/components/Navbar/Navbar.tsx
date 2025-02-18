@@ -33,8 +33,8 @@ const navItems: NavItems = {
         { title: "SEO", href: "/services#seo" },
         { title: "Website Development", href: "/services#website-development" },
         { title: "Software Development", href: "/services#software-development" },
-        { title: "QA and Testing", href: "/services#qa-testing" },
-        { title: "E-commerce", href: "/services#ecommerce" },
+        { title: "QA and Testing", href: "/services#qa-and-testing" },
+        { title: "E-commerce", href: "/services#e-commerce" },
         { title: "AI", href: "/services#ai" },
       ],
       DEPLOY: [
@@ -145,7 +145,7 @@ export function Navbar() {
           <Button variant="ghost" size="icon" className="hidden md:flex">
             <Search className="h-5 w-5" />
           </Button>
-          <Link href="#" className="hidden md:block text-sm font-medium text-gray-600 hover:text-gray-900">
+          <Link href="/contact" className="hidden md:block text-sm font-medium text-gray-600 hover:text-gray-900">
             Contact
           </Link>
           <Button className="hidden md:flex bg-[#39D6F7] hover:bg-[#39d7f7bd] px-5 py-2 rounded-md">Sign up</Button>
